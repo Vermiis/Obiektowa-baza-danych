@@ -1,0 +1,20 @@
+﻿<Window x:Class="Obiektowa_baza_danych.AddEditPhoneWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Obiektowa_baza_danych"
+        mc:Ignorable="d"
+        Title="AddEditPhone" Height="246.53" Width="274.55" ResizeMode="NoResize">
+    <Grid>
+        <Button x:Name="ButtonCancel" Content="Anuluj" HorizontalAlignment="Left" Height="22" Margin="10,179,0,0" VerticalAlignment="Top" Width="114" Click="ButtonCancel_Click"/>
+        <Button x:Name="ButtonSave" Content="Zapisz" HorizontalAlignment="Left" Height="22" Margin="139,179,0,0" VerticalAlignment="Top" Width="114" Click="ButtonSave_Click"/>
+        <TextBox x:Name="TextBoxNumber" HorizontalAlignment="Left" Height="22" Margin="10,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242"/>
+        <TextBox x:Name="TextBoxOperator" HorizontalAlignment="Left" Height="22" Margin="10,87,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="242"/>
+        <TextBox x:Name="TextBoxType" HorizontalAlignment="Left" Height="22" Margin="11,146,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="242"/>
+        <Label x:Name="label" Content="Numer" HorizontalAlignment="Left" Height="24" Margin="10,10,0,0" VerticalAlignment="Top" Width="209"/>
+        <Label x:Name="label_Copy" Content="Operator" HorizontalAlignment="Left" Height="24" Margin="10,63,0,0" VerticalAlignment="Top" Width="209"/>
+        <Label x:Name="label_Copy1" Content="Typ" HorizontalAlignment="Left" Height="29" Margin="11,117,0,0" VerticalAlignment="Top" Width="213"/>
+
+    </Grid>
+</Window>
