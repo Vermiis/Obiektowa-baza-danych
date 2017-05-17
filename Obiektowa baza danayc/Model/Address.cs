@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Obiektowa_baza_danayc.Model
 {
     public class Address
-    {//connec
+    {
         public string Street { get; set; }
         public string PostalCode { get; set; }
         public string City { get; set; }
