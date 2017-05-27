@@ -25,7 +25,7 @@ namespace Obiektowa_baza_danych
 
     public partial class MainWindow : Window
     {
-        static string path = "C:\\Users\\user\\Documents\\Obiektowa-baza-danych\\Obiektowa baza danayc\\baza";
+        static string path = "C:\\Users\\user\\Documents\\Obiektowa-baza-danych\\Obiektowa baza danayc\\baza3";
         IObjectContainer db;
         List<Contact> Contacts { get; set; }
         List<Phone> Phones { get; set; }
